@@ -23,7 +23,7 @@
           <a class="nav-link active fs-4 mx-4 fw-bold" href="#">Booking Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active fs-4 mx-4 fw-bold" href="#">Contact Us</a>
+          <a class="nav-link active fs-4 mx-4 fw-bold" href="{{ route('contact') }}">Contact Us</a>
         </li>
       </ul>
     </div>

@@ -1,0 +1,14 @@
+.bg-image {
+    background-image: url('/img/contact.png');
+    height: 320px;
+}
+#content{
+    background-color: #FFEFEF;
+}
+.shadow {
+    box-shadow: 0px 4px 25px 0px #00000040;
+}
+.package-lead{
+    font-size: 20px;
+}
+
