@@ -53,10 +53,6 @@ text-align: justify;
     height: 541px;
     margin-left: -1rem;
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: black;
-}
 
 
 
@@ -105,7 +101,12 @@ text-align: justify;
         margin-right: 2rem;
     }
   }
-  
+  @media only screen and (max-width: 600px){
+    .custom-shape-1, .custom-shape-2{
+        height: 190px;
+        width: 152px;
+    }
+  }
   @media screen and (min-width:576px) {
     .main-slide{
         display: flex;

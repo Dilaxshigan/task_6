@@ -37,15 +37,15 @@
 
 <section id="Home-1">
 <div class="container py-5">
-      <div class="row position-relative">
-          <div class="col-md-6 mb-3">
+      <div class="row">
+          <div class="col-12 col-md-6 col-sm-12 mb-3">
               <div class="text-left">
                   <h4 class="text-left text-dark fw-normal">Our Story</h2>
                   <h2 class="text-left text-primary fw-semibold mb-4">About Us</h2>
               </div>
               <p class="about-lead fw-normal">At Trezzert, we are dedicated to providing exceptional travel experiences across Sri Lanka. Specializing in customizable tour packages, we offer everything from cultural explorations to beach getaways, wildlife adventures, and more. Our mission is to make your journey seamless, offering accommodation, meals, and transportation tailored to your preferences. With a focus on safety and customer satisfaction, we travel with you throughout your trip, resolving any issues along the way. Whether you choose a pre-designed package or create your own, Trezzert is here to deliver a hassle-free, unforgettable Sri Lankan adventure.</p>
           </div>
-          <div class="col-md-6 position-relative">
+          <div class="col-12 col-md-6 col-sm-12 position-relative">
                       <div class="custom-shape-1 position-absolute shape-top-left"></div>
                       <div class="custom-shape-2 position-absolute shape-bottom-right"></div>
               <!-- <img src="{{ asset('img/') }}" alt="Cinnamon Powder" class="object-fit-cover"> -->
@@ -226,7 +226,7 @@
             <div class="col-md-6">
                 <div class="position-relative d-flex align-items-flex-end">
                     <img src="{{ asset('img/jaffna.png') }}" class="img-fluid" alt="Jaffna">
-                    <div class="position-absolute display-4 fw-bold text-white bottom-0 start-0 ms-2">JAFFNA</div>
+                    <div class="position-absolute display-6 fw-semibold text-white bottom-0 start-0 m-4">JAFFNA</div>
                 </div>
             </div>
             <!-- Second Column -->
@@ -235,19 +235,19 @@
                     <div class="col-12">
                         <div class="position-relative d-flex align-items-flex-end">
                             <img src="{{ asset('img/Trinco.png') }}" class="img-fluid" alt="Trinco">
-                            <div class="position-absolute display-4 fw-bold text-white bottom-0 start-0 ms-2">TRINCO</div>
+                            <div class="position-absolute display-6 fw-semibold text-white bottom-0 start-0 m-4">TRINCO</div>
                         </div>
                     </div>
                     <div class="col-6">
                     <div class="position-relative d-flex align-items-flex-end">
                             <img src="{{ asset('img/batti.jpg') }}" class="img-fluid rounded" alt="Batticaloa">
-                            <div class="position-absolute display-4 fw-bold text-white bottom-0 start-0 ms-2">BATTI</div>
+                            <div class="position-absolute display-6 fw-semibold text-white bottom-0 start-0 m-4">BATTI</div>
                         </div>
                     </div>
                     <div class="col-6">
                     <div class="position-relative d-flex align-items-flex-center">
                             <img src="{{ asset('img/ampara.jpg') }}" class="img-fluid rounded" alt="Ampara">
-                            <div class="position-absolute display-4 fw-bold text-white bottom-0 start-0 ms-2">AMPARA</div>
+                            <div class="position-absolute display-6 fw-semibold text-white bottom-0 start-0 m-4">AMPARA</div>
                         </div>
                     </div>
                 </div>
@@ -353,6 +353,7 @@
     </div>
     
   </div>
+  
   <button class="carousel-control-prev me-5 pe-5" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
