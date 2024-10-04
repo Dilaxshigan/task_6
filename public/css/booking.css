@@ -1,0 +1,50 @@
+.display-img{
+    width: 240px; 
+    height: 192px;
+ }
+
+.custom-class .page-item.active .page-link {
+    background-color:white;
+    border-color: black;
+}
+
+.custom-class .page-link {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+ @media only screen and (max-width: 1024px) {
+    .display-img {
+        width: 200px;
+        height: 160px;
+    }
+    .package-lead {
+        font-size: 16px;
+    }
+}
+ @media only screen and (max-width: 768px) {
+    .display-img {
+        width: 180px;
+        height: 144px;
+    }
+    .package-lead {
+        font-size: 14px;
+    }
+}
+
+/* @media only screen and (max-width: 480px) {
+    .display-img {
+        width: 150px;
+        height: 120px;
+    }
+    .package-lead {
+        font-size: 12px;
+    }
+} */
